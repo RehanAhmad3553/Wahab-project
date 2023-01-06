@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99AF7F"
+    tools:context=".MainActivity">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        app:mt_hint="Search..."
+        app:mt_searchBarColor="@color/white"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_placeholder="Search..."
+        app:mt_navIconEnabled="true"
+        />
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        app:showNavigationButtons="false"
+        app:showCaption="true"
+        app:autoPlay="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_one"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

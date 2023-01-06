@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+//        add this code Search Bar to the the project level build.gradle file
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "Framwork_Tasks"
+include ':app'
