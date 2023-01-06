@@ -30,7 +30,7 @@ public class FragmentActivity extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragmentactivity, container, false);
 
-        recyclerView=view.findViewById(R.id.recyclerView);
+      // remove recycler
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
